@@ -41,7 +41,7 @@ Status: **D** = done on MiniMax-M3/MI325X, **N** = not available, **I** = idle/n
 
 | Check | Description | Link | Status |
 |---|---|---|:---:|
-| ⬜ | Use tuned AITER GEMM for the MoE router gate instead of generic ATen GEMM. | [16](actions/16.md) | I |
+| ⬜ | **Use tuned AITER GEMM for the MoE router gate instead of generic ATen GEMM.** | [16](actions/16.md) | I |
 | ⬜ | Tune block-FP8 fused MoE for low-batch decode. | [17](actions/17.md) | I |
 | ⬜ | Vectorize the FP32 `moe_sum` reduction and support arbitrary top-k. | [18](actions/18.md) | I |
 | ⬜ | Restore the fast MoE reduce-scatter path by removing an additional communication step; add sequence-parallel support where the shape benefits. | [19](actions/19.md) | I |
